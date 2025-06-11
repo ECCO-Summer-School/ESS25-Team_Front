@@ -1,99 +1,59 @@
-# Sample Project
+# FRONtal Transport of Tracers in the Southern Ocean (FRONT)
 
-This is an example of how teams can structure their project repositories and format their project README.md file.
+This project explores the complexity of mixing processes in the biogeochemistry of the Southern Ocean using the [B-SOSE] (https://sose.ucsd.edu/) product of t
+he [NASA ECCO] (https://ecco-group.org/home.htm) Consortium. It has been created as part of the [ECCO Summer School 2025] (https://ecco-summer-school.github.i
+o/ecco-2025/).
 
-When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `ecco-hackweek-2024`).
+## Collaborators
 
+| Name | Personal goals |
+| ------------- | ------------- |
+| [Anna Lo Piccolo] (https://github.com/annlopiccolo) | To get familiar with [B-SOSE] (https://sose.ucsd.edu/) datasets and to analyze the ocean biogeochemistry |
 
-## Files and folders in your project repository
+## Motivation
 
-This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
-
-* **`contributors/`**
-<br> Each team member can create their own folder under contributors, within which they can work on their own scripts, notebooks, and other files. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch. This is a good place for team members to start off exploring data and methods for the project.
-* **`notebooks/`**
-<br> Notebooks that are considered delivered results for the project should go in here.
-* **`scripts/`**
-<br> Code that is shared by the team should go in here (e.g. functions or subroutines). These will be files other than Jupyter Notebooks such as Python scripts (.py).
-* `.gitignore`
-<br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files))
-* `environment.yml`
-<br> `conda` environment description needed to run this project.
-* `README.md`
-<br> Description of the project (see suggested headings below)
-* `model-card.md`
-<br> Description (following a metadata standard) of any machine learning models used in the project
-
-# Recommended content for your README.md file:
-
-(you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
-
-# Project or Team Name
-
-## Project Title and Introduction
-
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
-
-### Collaborators
-
-List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
-
-| Name | Personal goals | Can help with | Role |
-| ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
-
-### The problem
-
-Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
+Ocean mixing is important for the transport of tracers. At frontal regions the outcropping isopycnals enhance the vertical motion of tracers. Also, it has been found that small-scale instabilities associated to upper ocean fronts - such as the submesoscale - affect the ocean biogeochemistry (Lévy et al., 2018). The Southern Ocean is a highly energetic region with strong submesoscale activity and it plays an important role in the global ocean carbon uptake. Understanding the role of mixing processes in the ocean biogeochemistry is the goal of this project.   
 
 ## Data and Methods
 
-### Data
+The monthly output data from [B-SOSE] (https://sose.ucsd.edu/) 156 iteration at 1/6 degree has been downloaded and analyzed. The Atlantic sector from lon 300 to 360 has been selected to analyze the meridional distribution of tracers' concentration. Tracers analyzed are:
 
-Briefly describe and provide citations for the data that will be used (size, format, how to access).
+* Dissolved Inorganic Carbon (DIC)
+* Nitrate (NO3)
+* Iron (Fe)
+* Net Primary Productivity (NPP)
 
-### Existing methods
+The climatology has been studied distinguishing summer (JJA) and winter (DJF).
 
-How would you or others traditionally try to address this problem? Provide any relevant citations to prior work.
+## Project goals
 
-### Proposed methods/tools
+* Is there a seasonality in the biogeochemistry of the upper Southern Ocean?
+* What is the meridional distribution in the biogeochemistry of the upper Southern Ocean?
+* What is the role of ocean mixing in the transport of tracers?
 
-What new approaches would you like to implement for addressing your specific question(s) or application(s)?
+## Tasks
 
-Will your project use machine learning methods? If so, we invite you to create a [model card](model-card.md)!
-
-### Additional resources or background reading
-
-Optional: links to manuscripts or technical documents providing background information, context, or other relevant information.
-
-## Project goals and tasks
-
-### Project goals
-
-List the specific project goals or research questions you want to answer. Think about what outcomes or deliverables you'd like to create (e.g. a series of tutorial notebooks demonstrating how to work with a dataset, results of an anaysis to answer a science question, an example of applying a new analysis method, or a new python package).
-
-* Goal 1
-* Goal 2
-* ...
-
-### Tasks
-
-What are the individual tasks or steps that need to be taken to achieve each of the project goals identified above? What are the skills that participants will need or will learn and practice to complete each of these tasks? Think about which tasks are dependent on prior tasks, or which tasks can be performed in parallel.
-
-* Task 1 (all team members will learn to use GitHub)
-* Task 2 (team members will use the scikit-learn python library)
-  * Task 2a (assigned to team member A)
-  * Task 2b (assigned to team member B)
-* Task 3
-* ...
+* Task 1: be familiar with B-SOSE output data: variables and grid structure
+* Task 2: be familiar with assessing and downloading the data (using tmux and wget)
+* Task 3: learn how to deal with lots of data
+* Task 4: be familiar with GitHub and jupyter notebooks
+* Task 5: be familiar with climatology, seasonality, and interannual variability of the biogeochemistry of the Southern Ocean
 
 ## Project Results
 
-Use this section to briefly summarize your project results. This could take the form of describing the progress your team made to answering a research question, developing a tool or tutorial, interesting things found in exploring a new dataset, lessons learned for applying a new method, personal accomplishments of each team member, or anything else the team wants to share.
+In the Southern Ocean:
 
-You could include figures or images here, links to notebooks or code elsewhere in the repository (such as in the [notebooks](notebooks/) folder), and information on how others can run your notebooks or code.
+* more carbon at higher latitudes
+* mixed-layer depth deeper where strongest fronts are located
+
+In the Atlantic sector:
+
+* less carbon in summer: biology more active in summer
+* more carbon in winter: less biology and more mixing
+* nitrate and iron are upwelled in winter due to outcropping isopycnals
+* deep mixed-layer in the Weddell Sea in winter: deep ocean ventilation
+* mixed-layer depth interannual variability peaks from 2019 to 2021
+
+
+![Ocean bgc in the Atlantic sector](figures/ocean_bgc_atlantic_sector.png)
+
