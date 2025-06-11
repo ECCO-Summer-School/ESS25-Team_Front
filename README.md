@@ -1,8 +1,7 @@
 # FRONtal Transport of Tracers in the Southern Ocean (FRONT)
 
 This project explores the complexity of mixing processes in the biogeochemistry of the Southern Ocean using the [B-SOSE](https://sose.ucsd.edu/) product of t
-he [NASA ECCO](https://ecco-group.org/home.htm) Consortium. It has been created as part of the [ECCO Summer School 2025](https://ecco-summer-school.github.i
-o/ecco-2025/).
+he [NASA ECCO](https://ecco-group.org/home.htm) Consortium. It has been created as part of the [ECCO Summer School 2025](https://ecco-summer-school.github.io/ecco-2025/).
 
 ## Collaborators
 
