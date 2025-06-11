@@ -1,14 +1,12 @@
 # FRONtal Transport of Tracers in the Southern Ocean (FRONT)
 
-This project explores the complexity of mixing processes in the biogeochemistry of the Southern Ocean using the [B-SOSE] (https://sose.ucsd.edu/) product of t
-he [NASA ECCO] (https://ecco-group.org/home.htm) Consortium. It has been created as part of the [ECCO Summer School 2025] (https://ecco-summer-school.github.i
+This project explores the complexity of mixing processes in the biogeochemistry of the Southern Ocean using the [B-SOSE](https://sose.ucsd.edu/) product of t
+he [NASA ECCO](https://ecco-group.org/home.htm) Consortium. It has been created as part of the [ECCO Summer School 2025](https://ecco-summer-school.github.i
 o/ecco-2025/).
 
 ## Collaborators
 
-| Name | Personal goals |
-| ------------- | ------------- |
-| [Anna Lo Piccolo] (https://github.com/annlopiccolo) | To get familiar with [B-SOSE] (https://sose.ucsd.edu/) datasets and to analyze the ocean biogeochemistry |
+* [Anna Lo Piccolo](https://github.com/annlopiccolo)
 
 ## Motivation
 
@@ -16,7 +14,7 @@ Ocean mixing is important for the transport of tracers. At frontal regions the o
 
 ## Data and Methods
 
-The monthly output data from [B-SOSE] (https://sose.ucsd.edu/) 156 iteration at 1/6 degree has been downloaded and analyzed. The Atlantic sector from lon 300 to 360 has been selected to analyze the meridional distribution of tracers' concentration. Tracers analyzed are:
+The monthly output data from [B-SOSE](https://sose.ucsd.edu/) 156 iteration at 1/6 degree has been downloaded and analyzed. The Atlantic sector from lon 300 to 360 has been selected to analyze the meridional distribution of tracers' concentration. Tracers analyzed are:
 
 * Dissolved Inorganic Carbon (DIC)
 * Nitrate (NO3)
